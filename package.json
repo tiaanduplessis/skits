@@ -1,0 +1,33 @@
+{
+  "name": "skits",
+  "version": "1.0.0",
+  "description": "Tiny helper for connecting MobX and React/React Native",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/skits",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/skits",
+  "bugs": "https://github.com/tiaanduplessis/skits",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard 'src/**/*.js'",
+    "build": "bili",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run format"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "prettier-standard": "^6.0.0"
+  },
+  "dependencies": {
+    "mobx": "^3.2.2",
+    "mobx-react": "^4.2.2",
+    "react": "^15.6.1"
+  }
+}
