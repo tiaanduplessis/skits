@@ -56,6 +56,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/skits.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install skits
 # OR
